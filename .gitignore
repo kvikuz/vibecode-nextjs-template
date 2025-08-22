@@ -45,3 +45,5 @@ next-env.d.ts
 **/*.tfstate.backup
 # terraform lock file
 **/.terraform.lock.hcl
+
+.idea
