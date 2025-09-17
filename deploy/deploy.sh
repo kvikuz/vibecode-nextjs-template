@@ -43,7 +43,7 @@ yc container registry configure-docker --hostname cr.yandex
 
 # Сборка Docker образа
 echo "Сборка Docker образа..."
-docker build --platform linux/amd64 -t cr.yandex/$REGISTRY_ID/app-registry/nextjs-app:latest -f ../Dockerfile ..
+docker build --platform linux/amd64 -t cr.yandex/$REGISTRY_ID/app-registry/nextjs-app:latest -f Dockerfile ..
 
 # Пуш образа в реестр
 echo "Загрузка образа в реестр..."
